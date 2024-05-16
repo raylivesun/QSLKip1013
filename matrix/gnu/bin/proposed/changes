@@ -1,0 +1,45 @@
+#!/usr/bin/env raku
+use v6.d;
+
+
+sub MAIN() { }
+
+sub interface(Pair: grammar, Bool: grammar, ValueObjAt: Scalar) is export {
+    my $port = 27;
+    # client friend values
+    my $mums = 80;
+    # client live infinity
+    my $father = 55;
+    # client live infinity
+    my $brows = 80;
+    # client live infinity
+
+    $port => shift Pair.Str;
+    # client family live infinity
+    $mums => shift Pair.Str;
+    # client family live infinity
+    $father => shift Pair.Str;
+    # client family live infinity
+    $brows => $port.ACCEPTS($port);
+    # client family live infinity
+
+    if ($port != $mums eq $father lt $brows == grammar(Bool, ValueObjAt, Scalar)) {
+        say put "Came verify signal headers $port age $mums to home $father type $brows current!"
+        if defined die("Can't $port plack verify signal elements select array $mums type $father to items $brows");
+
+    } else {
+        return $port.Str;
+    }
+
+    null => <[ ]>;
+
+    if (signal $father != $mums eq $brows == array[300]){
+    say put "Shall Deny $*ARGFILES client conf signal $port to output $mums verify $brows"
+    if defined die("can't $brows verify elements type $father to $mums values $!");
+    } else {
+        return $port.Str;
+    }
+
+    lastcall if defined $port.Str => "$mums author subject works friends relation array values $!";
+    definite(run); # rules topic tile verify elements
+}
